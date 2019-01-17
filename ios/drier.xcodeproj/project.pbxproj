@@ -39,6 +39,8 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		2207C2ACC4FE492EB2F446CD /* IstokWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15517A2B9E6A42F5BBF34F44 /* IstokWeb-Regular.ttf */; };
 		6644D76122F74F3E813C43CC /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BAB1EB23104308B458EEAC /* libRNGestureHandler.a */; };
+		504EE8E754214C03A42043A1 /* Arimo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 669FC20528A84368BD82991F /* Arimo-Bold.ttf */; };
+		3241DF6049E941A0B6514392 /* Arimo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 642A7B8F2F1C4C908DA4E581 /* Arimo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,6 +349,8 @@
 		15517A2B9E6A42F5BBF34F44 /* IstokWeb-Regular.ttf */ = {isa = PBXFileReference; name = "IstokWeb-Regular.ttf"; path = "../assets/fonts/IstokWeb-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		386E7062D5454A448DD8430F /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		57BAB1EB23104308B458EEAC /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		669FC20528A84368BD82991F /* Arimo-Bold.ttf */ = {isa = PBXFileReference; name = "Arimo-Bold.ttf"; path = "../assets/fonts/Arimo-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		642A7B8F2F1C4C908DA4E581 /* Arimo-Regular.ttf */ = {isa = PBXFileReference; name = "Arimo-Regular.ttf"; path = "../assets/fonts/Arimo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -614,6 +618,8 @@
 			isa = "PBXGroup";
 			children = (
 				15517A2B9E6A42F5BBF34F44 /* IstokWeb-Regular.ttf */,
+				669FC20528A84368BD82991F /* Arimo-Bold.ttf */,
+				642A7B8F2F1C4C908DA4E581 /* Arimo-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1066,6 +1072,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				2207C2ACC4FE492EB2F446CD /* IstokWeb-Regular.ttf in Resources */,
+				504EE8E754214C03A42043A1 /* Arimo-Bold.ttf in Resources */,
+				3241DF6049E941A0B6514392 /* Arimo-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

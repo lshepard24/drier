@@ -19,18 +19,15 @@ export default class Home extends Component {
     return (
       <View style={styles.container}>
       <Image source={require('../../assets/blue-logo.png')} style={styles.logo} />
-        <Text style={styles.text}> Stay Dry </Text>
         <TouchableOpacity
-          style={styles.signupButton}
           onPress={() => navigate('Signup', {name: 'Signup'})}
         >
-        <Text> Get Started </Text>
+        <Text style={styles.signupButton}>Get Started</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={styles.loginButton}
           onPress={() => navigate('Login', {name: 'Login'})}
         >
-        <Text> Log In </Text>
+        <Text style={styles.loginButton}>Log In</Text>
         </TouchableOpacity>
       </View>
     );
@@ -40,35 +37,33 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: '#8cc9ff',
     alignItems: 'center',
     padding: 20,
     justifyContent: 'center'
   },
   logo: {
-    width: 250,
-    height: 250,
+    width: 260,
+    height: 380,
     alignItems: 'center'
-  },
-  text: {
-    color: 'black',
-    fontSize: 24,
-    textAlign: 'center'
   },
   signupButton: {
     fontSize: 20,
-    borderRadius: 4,
     textAlign: 'center',
     padding: 10,
-    margin: 2,
-    backgroundColor: '#8aaae5'
+    margin: 4,
+    // backgroundColor: '#77a6f7',
+    color: '#fff',
+    fontFamily: 'Arimo',
+    width: 140
   },
   loginButton: {
-    fontSize: 20,
-    borderRadius: 4,
+    fontSize: 18,
     textAlign: 'center',
+    color: '#fff',
     padding: 10,
-    backgroundColor: '#fff',
-    margin: 2
+    margin: 6,
+    fontFamily: 'Arimo',
+    lineHeight: 8
   }
 });
