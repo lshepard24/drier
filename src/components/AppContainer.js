@@ -1,3 +1,5 @@
+'use strict';
+
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import { Home, Login, Signup } from './index';
 

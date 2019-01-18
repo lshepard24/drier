@@ -1,3 +1,5 @@
+'use strict';
+
 import React, { Component } from 'react';
 import { 
   View, 
@@ -8,6 +10,7 @@ export default class Signup extends Component {
     super(props);
     this.state = {
       email: '',
+      username: '',
       password: ''
     };
   }
