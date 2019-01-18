@@ -15,7 +15,7 @@ export default class Home extends Component {
   }
 
   render() {
-    const {navigate} = this.props.navigation;
+    const { navigate } = this.props.navigation;
     return (
       <View style={styles.container}>
       <Image source={require('../../assets/blue-logo.png')} style={styles.logo} />
@@ -52,7 +52,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     padding: 10,
     margin: 4,
-    // backgroundColor: '#77a6f7',
     color: '#fff',
     fontFamily: 'Arimo',
     width: 140

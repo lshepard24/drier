@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':realm')
     compile project(':react-native-gesture-handler')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
@@ -148,4 +149,14 @@ dependencies {
 task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
+}
+
+// When using Android Gradle plugin 3.0 or higher
+dependencies {
+    implementation project(':realm')
+}
+
+// When using Android Gradle plugin lower than 3.0
+dependencies {
+    compile project(':realm')
 }

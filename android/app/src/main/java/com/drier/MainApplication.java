@@ -3,6 +3,7 @@ package com.drier;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import io.realm.react.RealmReactPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -24,6 +25,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RealmReactPackage(),
             new RNGestureHandlerPackage()
       );
     }
@@ -44,4 +46,16 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
   }
+}
+
+import io.realm.react.RealmReactPackage; // add this import
+
+public class MainApplication extends Application implements ReactApplication {
+    @Override
+    protected List<ReactPackage> getPackages() {
+        return Arrays.<ReactPackage>asList(
+            new MainReactPackage(),
+            new RealmReactPackage() // add this line
+        );
+    }
 }
