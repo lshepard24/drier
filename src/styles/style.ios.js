@@ -24,18 +24,12 @@ export default StyleSheet.create({
     paddingVertical: 4,
     margin: 6,
     fontFamily: 'Arimo',
-    borderWidth: 2,
-    borderColor: '#e2f0ff',
-    borderRadius: 22
   },
   normalButton: {
     fontSize: 18,
     textAlign: 'center',
     backgroundColor: '#72b6ff',
     fontFamily: 'Arimo',
-    borderRadius: 30,
-    borderWidth: 2,
-    borderColor: '#e2f0ff',
     margin: 10,
     padding: 4
   },

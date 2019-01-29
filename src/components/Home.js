@@ -15,6 +15,8 @@ export default class Home extends Component {
 
   render() {
     const { navigate } = this.props.navigation;
+    const props = this.props;
+    console.log('the props', props)
     return (
       <View style={styles.container}>
       <Image source={require('../../assets/blue-logo.png')} style={styles.logo} />
